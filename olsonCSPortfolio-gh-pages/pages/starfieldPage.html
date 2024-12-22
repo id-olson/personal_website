@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="../images/blueRooster.ico">
+<title>Isaac's Cool Website</title>
+<meta charset="utf-8">
+
+<!--accessing CSS and js-->
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+<script src="../javascript/starfield.js"></script>
+
+    </head>
+    
+<body>
+  <p id="bannerCenter"><img id="banner" src="../images/aranIslands-banner.jpg" width="900"></p>
+ 
+  <h2 id="topHome"> <img src="../images/blueRooster.png" height=65px> Isaac Olson <img src="../images/blueRooster.png" height=65px> </h2>
+
+<!--nestedMenu-->
+   <nav id="main-nav">
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="aboutMe.html">About Me
+                </a>
+            </li>
+            <li>
+                <a href="myProjects.html"><p id="colorInP">Projects
+                    <span class="arrow2">&#x25BC;</span></p>
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <a href="stringThingPage.html">String Thing</a>
+                    </li>
+                    <li>
+                        <a href="lightningPage.html">Lightning</a>
+                    </li>
+                    <li>
+                        <a href="dicePage.html">Dice</a>
+                    </li>
+                    <li>
+                        <a href="chemotaxisPage.html">Chemotaxis</a>
+                    </li>
+                    <li>
+                        <p id="colorIn3">Starfield</p>
+                    </li>
+                    <li>
+                        <a href="catchSomethingPage.html">catchSomething</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="zdeepThoughts.html">Deep Thoughts</a>
+            </li>
+        </ul>
+    </nav>
+  <!--/nestedMenu-->
+
+<!--HTML for everything else-->
+<h3>Circles in Motion ~ Starfield Project</h3>
+<p id="shiftUp2"> This project helped me understand the benefits of interfaces and inheritance, and it reinforced my familiarity with objects, parameters, and methods. I found an online example of code that replicated circular motion, and that helped me understand how cos() and sin() can be used to model a circle. I realized that by changing an object’s position by the cos() and sin() of a given angle and then incrementing the angle, the object will move in a circle. Thinking through the cos() and sin() values for various angles reminded me of the unit circle, which I learned about in algebra class. For example, I realized that this code works because even as the angle becomes greater than 2 pi, the object will continue moving in a circle because the sin() and cos() at pi radians are equal to the sin() and cos() at 3 pi radians, for example. After I understood how this code worked, I was able to adapt the parameters it uses to create variation in the size and speed of the circles in my project. 
+</p>
+
+<h4> <a class="bottomLink5" href="#banner">Back to top</a> </h4>
+
+ </body>
+
+</html>

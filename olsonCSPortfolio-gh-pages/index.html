@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Adding custom website tab icon-->
+<link rel="shortcut icon" href="images/blueRooster.ico">
+
+<title>Isaac's Cool Website</title>
+<meta charset="utf-8">
+
+<!--accessing CSS and js-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+<script src="javascript/scene.js"></script>
+</head>
+    
+<body>
+  <p id="bannerCenter"><img id="banner" src="images/aranIslands-banner.jpg"></p>
+ 
+  <h2 id="topHome"> <img src="images/blueRooster.png" height=65px> Isaac Olson <img src="images/blueRooster.png" height=65px> </h2>
+
+ <!--nestedMenu-->
+    <nav id="main-nav">
+        <ul>
+            <li>
+                <p id="colorIn">Home</p>
+            </li>
+            <li>
+                <a id="noColor" href="pages/aboutMe.html">About Me
+                </a>
+            </li>
+            <li>
+                <a id="noColor" href="pages/myProjects.html">Projects
+                    <span class="arrow">&#x25BC;</span>
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <a id="noColor" href="pages/stringThingPage.html">String Thing</a>
+                    </li>
+                    <li>
+                        <a id="noColor" href="pages/lightningPage.html">Lightning</a>
+                    </li>
+                    <li>
+                        <a id="noColor" href="pages/dicePage.html">Dice</a>
+                    </li>
+                    <li>
+                        <a id="noColor" href="pages/chemotaxisPage.html">Chemotaxis</a>
+                    </li>
+                    <li>
+                        <a href="pages/starfieldPage.html">Starfield</a>
+                    </li>
+                    <li>
+                        <a href="pages/catchSomethingPage.html">catchSomething</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a id="noColor" href="pages/zdeepThoughts.html">Deep Thoughts</a>
+            </li>
+        </ul>
+    </nav>
+  <!--/nestedMenu-->
+
+<!--HTML for everything else-->
+  <div>
+
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1">ACS Hour 1 Cohort C
+            </div>
+            <div id="middleWords" class="flexbox-item flexbox-item-2">Welcome to my ACS page! This is the site for information about me, projects I've worked on, my computer science journal, and more. I'm looking forward to updating this page throughout the year as we do more projects and activities, become familiar with multiple code languages, and learn more advanced code. <p></p>Here's a link to <a target="_blank" href="https://www.dictionary.com/e/word-of-the-day/">today's word of the day.</a> Also, did you know that as altitude increases, the atmosphere's density decreases? This means there's a point where balloons stop floating, which can be higher than 5 miles above the ground.
+            </div>
+            <div class="flexbox-item flexbox-item-3">Isaac's Cool Website</div>
+        </div>
+            <div id="sketch-div"></div>
+
+    </div>
+
+<h4> <a class="bottomLink" href="#banner">Back to top</a> </h4>
+<p id="bottomSpace">.</p>
+<p id="sceneShift">.</p>
+
+ </body>
+
+</html>

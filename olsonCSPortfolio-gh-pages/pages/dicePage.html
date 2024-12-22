@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="../images/blueRooster.ico">
+<title>Isaac's Cool Website</title>
+<meta charset="utf-8">
+
+<!--accessing CSS and js-->
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+<script src="../javascript/dice.js"></script>
+
+    </head>
+    
+<body>
+  <p id="bannerCenter"><img id="banner" src="../images/aranIslands-banner.jpg" width="900"></p>
+ 
+  <h2 id="topHome"> <img src="../images/blueRooster.png" height=65px> Isaac Olson <img src="../images/blueRooster.png" height=65px> </h2>
+
+<!--nestedMenu-->
+    <nav id="main-nav">
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="aboutMe.html">About Me
+                </a>
+            </li>
+            <li>
+                <a href="myProjects.html"><p id="colorInP">Projects
+                    <span class="arrow2">&#x25BC;</span></p>
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <a href="stringThingPage.html">String Thing</a>
+                    </li>
+                    <li>
+                        <a href="lightningPage.html">Lightning</a>
+                    </li>
+                    <li>
+                        <p id="colorIn3">Dice</p>
+                    </li>
+                    <li>
+                        <a href="chemotaxisPage.html">Chemotaxis</a>
+                    </li>
+                    <li>
+                        <a href="starfieldPage.html">Starfield</a>
+                    </li>
+                    <li>
+                        <a href="catchSomethingPage.html">catchSomething</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="zdeepThoughts.html">Deep Thoughts</a>
+            </li>
+        </ul>
+    </nav>
+  <!--/nestedMenu-->
+
+<!--HTML for everything else-->
+<h3>Very Cool Dice!</h3>
+<p id="shiftUp"> This was a very useful review of object-oriented programming. It was challenging to figure out how to declare objects, add parameters to the constructor, and call the right methods from the Die class to carry out each task. I was able to figure out the syntax and formatting by thinking through what data I needed to pass in at each step. For example, I knew that each Die object I created would have an x-value and y-value to help position it. Therefore, I declared private instance variables for these values in the Die class, included two int parameters in the Die constructor, and assigned each Die object I created values for each of the parameters. This approach worked because it allowed Die objects to pass in 2 values for positioning. Converting it to javascript was another challenge, but I learned a lot about classes, methods, and private instance variables in javascript in the process of figuring out the conversion.
+</p>
+
+<h4> <a class="bottomLink3" href="#banner">Back to top</a> </h4>
+
+ </body>
+
+</html>

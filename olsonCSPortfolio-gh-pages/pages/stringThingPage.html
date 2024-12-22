@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="../images/blueRooster.ico">
+<title>Isaac's Cool Website</title>
+<meta charset="utf-8">
+
+<!--accessing CSS and js-->
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+<script src="../javascript/stringThing.js"></script>
+
+    </head>
+    
+<body>
+  <p id="bannerCenter"><img id="banner" src="../images/aranIslands-banner.jpg" width="900"></p>
+ 
+  <h2 id="topHome"> <img src="../images/blueRooster.png" height=65px> Isaac Olson <img src="../images/blueRooster.png" height=65px> </h2>
+
+<!--nestedMenu-->
+    <nav id="main-nav">
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="aboutMe.html">About Me
+                </a>
+            </li>
+            <li>
+                <a href="myProjects.html"><p id="colorInP">Projects
+                    <span class="arrow2">&#x25BC;</span></p>
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <p id="colorIn3">String Thing</p>
+                    </li>
+                    <li>
+                        <a href="lightningPage.html">Lightning</a>
+                    </li>
+                    <li>
+                        <a href="dicePage.html">Dice</a>
+                    </li>
+                    <li>
+                        <a href="chemotaxisPage.html">Chemotaxis</a>
+                    </li>
+                    <li>
+                        <a href="starfieldPage.html">Starfield</a>
+                    </li>
+                    <li>
+                        <a href="catchSomethingPage.html">catchSomething</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="zdeepThoughts.html">Deep Thoughts</a>
+            </li>
+        </ul>
+    </nav>
+  <!--/nestedMenu-->
+
+<!--HTML for everything else-->
+<h3>String Thing!</h3>
+ <p id="shiftUp">This project involved using various String properties in peblio. One challenging part of this project was converting the code from the java that peblio uses to p5.js, which is javascript. However, I used <a target="_blank" href="https://editor.p5js.org/">this website</a> to automatically update my p5.js code, which made it much easier to figure out where exactly the problem was in my code. It turns out that I needed to re-write the code for how I change fonts. This process involves creating a PFont object in java, but it is much simpler to do in p5.js. After I changed that, I just had to alter how I labeled private instance variables and the names of methods, and my original java code was fully converted to p5.js.</p>
+
+<h4> <a class="bottomLink2" href="#banner">Back to top</a> </h4>
+
+ </body>
+
+</html>
