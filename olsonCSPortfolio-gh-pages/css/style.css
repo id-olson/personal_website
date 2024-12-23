@@ -1,375 +1,341 @@
-/*CSS for old menu*/
-     
-    /* .menu {
-      flex-direction: row;
-       font-weight: bold;
-       width: 100%;
-       margin-bottom: 25px;
-       margin-top: 20px;
-       position: sticky;
-       top:0px;
-       display: flex;
-       z-index: 1;
-     }
-     .menu ul{
-      background: #a56720;
-       list-style: none;
-       padding-left: 0;
-       display: flex;
-     }
-     .menu li {
-    width: 100%;
-    text-align: center;
-    position: relative;
+/* CSS for old menu */
+/* .menu {
+     flex-direction: row;
+     font-weight: bold;
+     width: 100%;
+     margin-bottom: 25px;
+     margin-top: 20px;
+     position: sticky;
+     top:0px;
+     display: flex;
+     z-index: 1;
 }
-     .menu a {
-       color: #f6f7f8;
-    background: #a56720;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-  
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-     }
-     .menu a:hover {
-    background: #ddd5b0;
-    }
-     #colorIn {
-       position: relative;
-       color: rgb(12, 55, 95);
-       text-decoration: none;
-       font-family: 'Raleway', sans-serif;
-       font-size: 22px;
-       display: flex;
-    align-items: center;
-    justify-content: center;
-     }
-     .box {
-       flex: 1;
-       text-align: center;
-     }
-     .arrow {
-    margin-left: 8px;
-    color: #eee;
-    font-size: 12px;
+ .menu ul{
+     background: #a56720;
+     list-style: none;
+     padding-left: 0;
+     display: flex;
 }
-    .menu .box:hover .submenu > li {
-    z-index:1;
-    display: block;
-    flex-direction: column;
-    top: 0px;
+ .menu li {
+     width: 100%;
+     text-align: center;
+     position: relative;
 }
-    .submenu li {
-    display: none;
-    position: absolute;
-    top: 0px;
+ .menu a {
+     color: #f6f7f8;
+     background: #a56720;
+     height: 64px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+     font-family: 'Raleway', sans-serif;
+     font-size: 22px;
 }
-    .submenu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 50%;
+ .menu a:hover {
+     background: #ddd5b0;
 }
-    .submenu li {
-    position: relative;
-} */
-
+ #colorIn {
+     position: relative;
+     color: rgb(12, 55, 95);
+     text-decoration: none;
+     font-family: 'Raleway', sans-serif;
+     font-size: 22px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ .box {
+     flex: 1;
+     text-align: center;
+}
+ .arrow {
+     margin-left: 8px;
+     color: #eee;
+     font-size: 12px;
+}
+ .menu .box:hover .submenu > li {
+     z-index:1;
+     display: block;
+     flex-direction: column;
+     top: 0px;
+}
+ .submenu li {
+     display: none;
+     position: absolute;
+     top: 0px;
+}
+ .submenu {
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     width: 50%;
+}
+ .submenu li {
+     position: relative;
+}
+ */
 
 /*CSS for nested menu*/
-#main-nav {
-    width: 100%;
-    margin-bottom: 25px;
-    top:0px;
-    position: sticky;
-    z-index: 1;
+ #main-nav {
+     width: 100%;
+     margin-bottom: 25px;
+     top:0px;
+     position: sticky;
+     z-index: 1;
+}
+ #main-nav a {
+     color: #f6f7f8;
+     background: #a56720;
+     height: 64px;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+     font-family: 'Raleway', sans-serif;
+     font-size: 22px;
+}
+ #colorIn {
+     margin-top: 0px;
+     color: rgb(12, 55, 95);
+     background: #a56720;
+     height: 64px;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+     font-family: 'Raleway', sans-serif;
+     font-size: 22px;
+}
+ #colorInP {
+     width:100%;
+     color: rgb(12, 55, 95);
+     background: #a56720;
+     height: 64px;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+     font-family: 'Raleway', sans-serif;
+     font-size: 22px;
+}
+ #colorIn3 {
+     margin-top:0px;
+     margin-bottom:0px;
+     color: rgb(12, 55, 95);
+     background: #a56720;
+     height: 64px;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+     font-family: 'Raleway', sans-serif;
+     font-size: 22px;
+}
+ #main-nav a:hover {
+     background: #c9bf8a;
+}
+ #main-nav p:hover {
+     background: #c9bf8a;
+}
+ #main-nav ul {
+     padding-left:0;
+     list-style: none;
+     display: flex;
+}
+ #main-nav li {
+     width: 100%;
+     text-align: center;
+     position: relative;
+}
+ #main-nav li:hover .submenu > li {
+     z-index:1;
+     display: block;
+     flex-direction: column;
+     top: 0px;
+}
+ .submenu li {
+     display: none;
+     position: absolute;
+     top: 0px;
+}
+ .submenu {
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     width: 100%;
+}
+ .submenu li {
+     position: relative;
+}
+ .arrow {
+     margin-left: 8px;
+     color: #eee;
+     font-size: 12px;
+}
+ .arrow2 {
+     margin-left:8px;
+     color: rgb(12, 55, 95);
+     font-size: 12px;
 }
 
-#main-nav a {
-    color: #f6f7f8;
-    background: #a56720;
-    height: 64px;
-    
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-  
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
+/*CSS for everything else*/
+ #topHome{
+     margin-top: -7px;
+     margin-bottom: -9px;
 }
-#colorIn {
-    margin-top: 0px;
-    color: rgb(12, 55, 95);
-    background: #a56720;
-    height: 64px;
-    
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-  
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-     }
-#colorInP {
-    width:100%;
-    color: rgb(12, 55, 95);
-    background: #a56720;
-    height: 64px;
-    
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-  
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-     }
-#colorIn3 {
-  margin-top:0px;
-  margin-bottom:0px;
-  color: rgb(12, 55, 95);
-    background: #a56720;
-    height: 64px;
-    
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-  
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
+/*This code shifts my name up to be in front of the banner #topHome{
+     position: relative;
+     top: -150px;
+     font-size: 28px;
 }
-#main-nav a:hover {
-    background: #c9bf8a;
+*/
+ body{
+     background-color: rgb(221, 221, 221);
 }
-#main-nav p:hover {
-    background: #c9bf8a;
+ #bannerCenter{
+     text-align: center;
 }
-
-#main-nav ul {
-  padding-left:0;
-    list-style: none;
-    display: flex;
+ #banner{
+     width: 100%;
+     height:180px;
+     margin-top: -18px;
+     z-index: -1;
 }
-
-#main-nav li {
-    width: 100%;
-    text-align: center;
-    position: relative;
+ h2{
+     text-align: center;
 }
-
-#main-nav li:hover .submenu > li {
-    z-index:1;
-    display: block;
-    flex-direction: column;
-    top: 0px;
+ h3{
+     background-color: rgb(200, 200, 210);
+     text-align: center;
+     font-family: sans-serif;
 }
-
-.submenu li {
-    display: none;
-    position: absolute;
-    top: 0px;
+ ol{
+     font-family: sans-serif;
+     line-height: 29px;
+     font-size: 18px;
 }
-
-.submenu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 100%;
+ p{
+     font-size: 18px;
 }
-
-.submenu li {
-    position: relative;
+ ul{
+     line-height: 29px;
+     font-size: 18px;
 }
-
-.arrow {
-    margin-left: 8px;
-    color: #eee;
-    font-size: 12px;
+ .stella{
+     text-align: center;
+}
+ .stellaFoto{
+     width: 50%;
+}
+ #slant{
+     font-family: cursive;
+     font-style: italic;
+     color: rgb(135, 206, 245);
+}
+ h4{
+     font-family: monospace;
+     font-size: 16px;
+}
+ #slides{
+     margin-top: 18px;
+     margin-bottom:25px;
+     width: 100%;
+}
+ .bottomLink{
+     position: relative;
+     top: 820px;
+}
+ .bottomLink2{
+     position: relative;
+     top: 430px;
+     padding-bottom: 16px;
+}
+ .bottomLink3{
+     position: relative;
+     top: 600px;
+     padding-bottom: 16px;
+}
+ .bottomLink4{
+     position: relative;
+     top: 450px;
+     padding-bottom: 16px;
+}
+ .bottomLink5{
+     position: relative;
+     top: 805px;
+     padding-bottom: 16px;
+}
+ #shiftUp{
+     margin-bottom: -38px;
+}
+ #bottomSpace{
+     position: relative;
+     top: 795px;
+     color: rgb(221, 221, 221);
+}
+ #sceneShift{
+     margin-top: -77px;
+     color: rgb(221, 221, 221);
+}
+ #centered{
+     text-align: center;
 }
 
-.arrow2 {
-    margin-left:8px;
-    color: rgb(12, 55, 95);
-    font-size: 12px;
+/*CSS for flexboxes in home page*/
+ #middleWords{
+     padding-top: 1.5vw;
+}
+ .flexbox-container {
+     display: flex;
+     margin-bottom: -30px;
+     justify-content: center;
+}
+ .flexbox-item {
+     font-family: ubuntu;
+     margin: 5px;
+     padding: 10px;
+     border: 3px double #333;
+     background-color: #DFE9EE;
+     text-align: center;
+}
+ .flexbox-item-1 {
+     margin-top: 13px;
+     font-size: 21px;
+     align-self: start;
+     width: 78px;
+     height: 90px;
+}
+ .flexbox-item-2 {
+     font-size: 1.9vw;
+     width: 30%;
+     height: 43vw;
+     text-align: left;
+}
+ .flexbox-item-3 {
+     margin-bottom: 13px;
+     font-size: 21px;
+     align-self: flex-end;
+     width: 78px;
+     height: 90px;
+}
+ .shiftUp{
+     margin-bottom: -80px;
+}
+ #shiftUp2{
+     margin-bottom: -56px;
 }
 
-
-
-/*End of CSS for nested menu*/
-
-
-      /*CSS for everything else*/
-    
-      #topHome{
-        margin-top: -7px;
-        margin-bottom: -9px;
-      } 
-      /*This code shifts my name up to be in front of the banner
-      #topHome{
-        position: relative;
-        top: -150px;
-        font-size: 28px;
-      }*/
-
-      body{      
-       background-color: rgb(221, 221, 221);
-      }
-      #bannerCenter{
-        text-align: center;
-      }
-      #banner{
-        width: 100%;
-        height:180px;
-        margin-top: -18px;
-        z-index: -1;
-      }
-      h2{
-        text-align: center;
-      }
-      h3{
-        background-color: rgb(200, 200, 210);
-        text-align: center;
-        font-family: sans-serif;
-      }
-      ol{
-        font-family: sans-serif;
-        line-height: 29px;
-        font-size: 18px;
-      }
-      p{
-        font-size: 18px;
-      }
-      ul{
-        line-height: 29px;
-        font-size: 18px;
-      }
-      .stella{
-        text-align: center;
-      }
-      .stellaFoto{
-        width: 50%;
-      }
-      #slant{
-        font-family: cursive;
-        font-style: italic;
-        color: rgb(135, 206, 245);
-      }
-      h4{
-        font-family: monospace;
-        font-size: 16px;
-      }
-      #slides{
-        margin-top: 18px;
-        margin-bottom:25px;
-        width: 100%;
-        
-      }
-      .bottomLink{
-        position: relative;
-        top: 820px;
-      }
-      .bottomLink2{
-        position: relative;
-        top: 430px;
-        padding-bottom: 16px;
-      }
-      .bottomLink3{
-        position: relative;
-        top: 600px;
-        padding-bottom: 16px;
-      }
-      .bottomLink4{
-        position: relative;
-        top: 450px;
-        padding-bottom: 16px;
-      }
-      .bottomLink5{
-        position: relative;
-        top: 805px;
-        padding-bottom: 16px;
-      }
-      #shiftUp{
-        margin-bottom: -38px;
-      }
-      #bottomSpace{
-        position: relative;
-        top: 795px;   
-        color: rgb(221, 221, 221);   
-      }
-      #sceneShift{
-        margin-top: -77px;
-        color: rgb(221, 221, 221);
-      }
-      #centered{
-        text-align: center;
-      }
-    
-
-      /*CSS for flexboxes in home page*/
-      #middleWords{
-        padding-top: 1.5vw;
-      }
-      .flexbox-container {
-    display: flex;
-    margin-bottom: -30px;
-    justify-content: center;
-
-}
-      
-    .flexbox-item {
-    font-family: ubuntu;
-    margin: 5px;
-    padding: 10px;
-    border: 3px double #333;
-    background-color: #DFE9EE;
-    text-align: center; 
-}
-      
-      .flexbox-item-1 {
-      margin-top: 13px;
-      font-size: 21px;
-      align-self: start;
-      width: 78px;
-      height: 90px;
-    }
-
-      .flexbox-item-2 {
-      font-size: 1.9vw;
-      width: 30%;
-      height: 43vw;
-      text-align: left;
-    }
-
-    .flexbox-item-3 {
-      margin-bottom: 13px;
-      font-size: 21px;
-      align-self: flex-end;
-      width: 78px;
-      height: 90px;
-      
-    }
-    .shiftUp{
-      margin-bottom: -80px;
-    }
-    #shiftUp2{
-      margin-bottom: -56px;
-    }
-
-      /*js file formatting*/
-canvas {
-    border: thin solid steelblue;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, 0%);
-    margin-bottom: 13px;
+/*js file formatting*/
+ canvas {
+     border: thin solid steelblue;
+     position: relative;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, 0%);
+     margin-bottom: 13px;
 }
